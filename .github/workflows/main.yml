@@ -1,0 +1,12 @@
+name: GitHub Actions Demo
+
+on:
+  push:
+    branches:
+      - main 
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: windows-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello, world"
